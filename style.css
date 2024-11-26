@@ -1,0 +1,282 @@
+* {
+    box-sizing: border-box;
+}
+
+header{text-shadow: #1f0e0e  4px 4px 4px ;}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f3e8; /* світлий фон, що нагадує молоко */
+    color: #503b2f; /* темний коричневий, як кава */
+}
+
+
+/* Темна тема */
+body.dark-mode {
+    background-color: #342020;
+    color: #4b3131;
+}
+
+header.dark-mode {
+    background-color: #422b2b;
+    color: rgb(194, 139, 139);
+    
+}
+
+footer.dark-mode {
+    background-color: #422b2b;
+    color:  rgb(125, 85, 85);
+}
+
+aside.dark-mode {
+    background-color: #795353;
+}
+button.dark-mode {
+    background-color: #1f0e0e; 
+    color: rgb(186, 124, 124);
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+  button:hover.dark-mode {     
+    background-color: #0f0c09;
+    }
+
+
+.info.dark-mode {
+    background-color: #af8c8c;
+}
+
+
+
+
+
+
+
+footer:hover {
+    background-color: #3c261a;
+    color: #6d3c45;
+}
+
+footer.dark-mode:hover {
+    background-color: #271919;
+    color:  rgb(254, 235, 235);
+}
+
+
+
+header:hover {
+    background-color: #3c261a;
+    color: #6d3c45;
+}
+
+header.dark-mode:hover {
+    background-color: #271919;
+    color: rgb(254, 235, 235);
+}
+
+
+.te:hover {
+    color: #ea9b8d;
+
+}
+
+.te.dark-mode:hover {color:  #935d40;
+    }
+
+
+
+
+    
+.hea:hover {
+    color: #ea9b8d;
+
+}
+
+.hea.dark-mode:hover {color:  #935d40;
+    }
+
+    .text:hover {
+        color: #ea9b8d;
+    
+    }
+    
+    .text.dark-mode:hover {color:  #935d40;
+        }
+
+
+
+    .title:hover {
+        color: #ea9b8d;
+    
+    }
+    
+    .te.dark-mode:hover {color:  #935d40;
+        }
+
+        .texi:hover {color:   #ea9b8d;}
+
+
+
+        
+        nav ul li a:hover {
+            color: #6d3c45;
+            text-decoration: none;
+            font-family: 'TeXGyreCursor-Regular';
+            
+        }   
+        
+        
+              
+        nav ul li a.dark-mode:hover {
+            color:  #e7ad8e;
+            text-decoration: none;
+            font-family: 'TeXGyreCursor-Regular';
+            
+        }    
+
+header {
+    background-color: #6f4c3e; /* колір кави */
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Gagalin';
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'TeXGyreCursor-Regular';
+}
+
+button {
+    background-color: #d1a56e; /* колір молока з кавою */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #c88a56; /* трохи темніший колір при наведенні */
+}
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+aside {
+    width: 200px;
+    background-color: #e8d7c5; /* світліший відтінок кави */
+    padding: 15px;
+    margin-right: 20px;
+    border-radius: 5px;
+    text-shadow: #1f0e0e  1px 1px 1px ;
+}
+
+section {
+    flex-grow: 1;
+    background-color: #ffffff; /* білий фон для контенту */
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* тінь для глибини */
+}
+
+footer {
+    background-color: #6f4c3e; /* колір кави */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-family: 'TeXGyreCursor-Regular';
+}
+
+footer a {
+    color: #d1a56e; /* колір молока */
+    text-decoration: none;
+
+    
+}
+
+a {  color: #3e2723;
+    font-family: 'Arial', sans-serif;
+}
+.text { color: #3e2723;
+    font-family: 'TeXGyreCursor-Regular';
+
+}
+
+.title {font-family: 'TeXGyreCursor-Regular';
+    color: #3e2723; /* темний коричневий, як кава */
+    text-shadow: #1f0e0e  1px 1px 1px ;
+}
+
+
+
+.tex {font-family:  'Nautilus Pompilius';
+    color: #3e2723;
+    font-size: 20px;
+}
+
+.hea {font-family: 'BoomBoom';
+}
+
+.te {font-family: 'Fira Sans Heavy';
+    color: #3e2723;
+    font-size: 25px;    
+    text-shadow: #1f0e0e  1px 1px 1px ;
+}
+
+.text {font-size: 30px;}
+
+img{border-radius: 15px;}
+
+
+.texi {font-size: 15px;
+    font-family:  'Nautilus Pompilius';
+    color: #3e2723;}
+
+
+
+
+
+    .text{
+    
+    
+         opacity: 0; 
+            animation: fadeIn ease-in 1; 
+            animation-fill-mode: forwards; 
+            animation-duration: 10s; 
+          }
+          
+          @keyframes fadeIn {
+            0% {
+              opacity: 0;
+            }
+            100% {
+              opacity: 1;
+            }
+          }
+      
